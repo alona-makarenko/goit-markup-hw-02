@@ -23,7 +23,7 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -62,7 +62,7 @@ button {
 /*   MAIN   */
 
 .hero {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .hero-button {
@@ -76,7 +76,7 @@ button {
 
 .hero-button:hover,
 .hero-button:focus {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
 .feauters-subtitle {
@@ -104,6 +104,11 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.team-item {
+  background-color: #fff;
 }
 
 .team-subtitle {
@@ -129,6 +134,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-subtitle {
@@ -149,7 +155,7 @@ button {
 /*   FOOTER   */
 
 .footer {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .hero-title {
