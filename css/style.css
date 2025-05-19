@@ -4,17 +4,12 @@ body {
   background: #fff;
 }
 
-ul,
-ol {
+ul {
   list-style-type: none;
 }
 
 a {
   text-decoration: none;
-}
-
-button {
-  cursor: pointer;
 }
 
 /*   HEADER   */
@@ -65,6 +60,15 @@ button {
   background-color: #2e2f42;
 }
 
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+}
+
 .hero-button {
   font-weight: 500;
   font-size: 16px;
@@ -72,6 +76,7 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -156,14 +161,6 @@ button {
 
 .footer {
   background-color: #2e2f42;
-}
-
-.hero-title {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
 }
 
 .footer-logo .part-logo {
